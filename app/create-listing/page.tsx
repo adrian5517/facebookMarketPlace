@@ -23,6 +23,7 @@ export default function CreateListing() {
     }
   }
 
+  // Form submission handler
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
 
