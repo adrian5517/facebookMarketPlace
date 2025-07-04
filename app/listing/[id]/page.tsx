@@ -1,5 +1,4 @@
 import { supabase } from '@/lib/supabase'
-import { Button } from '@/components/ui/button'
 import MessageSellerForm from "../../../components/message-seller-form";
 
 interface ListingPageProps {

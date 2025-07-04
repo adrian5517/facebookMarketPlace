@@ -33,7 +33,7 @@ export default function CreateListing() {
 
     // 1. Upload image to Supabase Storage
     const fileName = `${Date.now()}_${file.name}`
-    const { data: fileData, error: fileError } = await supabase.storage
+    const { error: fileError } = await supabase.storage
       .from('listing-images')
       .upload(fileName, file)
 
